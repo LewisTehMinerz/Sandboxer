@@ -12,6 +12,6 @@ local _ENVIRONMENTS = {
       ["io"] = false,
       ["fs"] = false,
       ["http"] = false,
-    }
+    },
   },
 }
