@@ -6,12 +6,13 @@
 
 local _ENVIRONMENTS = {
   ["DEFAULT"] = {
-    ["name"] = "Default",
+    ["name"] = "Default - No Restrictions",
     ["readonly"] = true,
     ["restrictions"] = {
-      ["io"] = false,
-      ["fs"] = false,
-      ["http"] = false,
+        ["io"] = false,
+        ["fs"] = false,
+        ["http"] = false,
+        ["os"] = false,
     },
   },
 }
